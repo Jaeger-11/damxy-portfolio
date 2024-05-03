@@ -2,12 +2,12 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='p-4 my-4 md:w-4/5 mx-auto'>
+    <div className='p-4 py-8 bg-white'>
         <article>
             <div className='flex justify-center'>
-                <h3 className="p-3 my-4 sh font-bold rotate-3 text-white bg-[#FF392B] w-max">Skills & Tools</h3>
+                <h3 className="p-3 sh font-bold rotate-3 text-white bg-[#FF392B] w-max">Skills & Tools</h3>
             </div>
-            <div className="flex flex-wrap justify-center gap-3 md:gap-6 skills mt-5 md:mt-10">
+            <div className="flex flex-wrap justify-center gap-2 skills mt-5 md:mt-10">
             <div className="flex">
                 HTML
                 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#F16529"></path> <path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="white"></path> </g></svg>
