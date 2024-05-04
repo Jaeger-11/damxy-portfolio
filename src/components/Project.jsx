@@ -1,7 +1,7 @@
 
 const Project = ({name, tools, description, link, year, livecode}) => {
   return (
-    <article  className='bg-white p-2 rounded-md shadow-md flex flex-col justify-between'>
+    <article  className='bg-white p-2 rounded-md project flex flex-col justify-between'>
         <div>
           <h2 className='font-bold text-2xl uppercase'>{name}</h2>
           <p>{description}</p>

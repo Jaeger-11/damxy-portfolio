@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='w-[100vw]'>
+    <div className='w-[100vw] xl:text-lg'>
       <Navbar/>
       <Hero/>
       <div className='md:grid grid-cols-2'>

@@ -45,8 +45,11 @@ a {
 a:hover {
   color: #535bf2;
 }
-
-.sh{
+.project{
+  @apply shadow-md transition-all
+}
+/* .project:hover */
+.sh, .project:hover{
   border: 1px solid white;
   box-shadow: 4px 4px 0px 0px #000;
 }
@@ -97,7 +100,7 @@ ul{
   fill: rgb(239, 68, 68);
 }
 .contact-links{
-  @apply flex flex-col gap-3 my-4 md:flex-row md:gap-8 md:flex-wrap
+  @apply flex  gap-4 my-4 flex-row smd:gap-8 flex-wrap
 }
 .contact-links article p {
   @apply text-sm font-semibold
