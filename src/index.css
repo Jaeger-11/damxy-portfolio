@@ -86,12 +86,16 @@ body {
   min-height: 100vh;
   font-family: 'Clash Display';
   word-spacing: 0.2em;
-  @apply  lg:bg-grayBg
+  background-color: white;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+ul{
+  list-style-type: square;
 }
 
 button {

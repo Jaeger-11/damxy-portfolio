@@ -1,7 +1,7 @@
 import bitmoji from '../assets/bitmoji.webp'
 const Hero = () => {
   return (
-    <main className="p-4 my-4 md:w-4/5 mx-auto flex flex-col gap-12 md:grid md:grid-cols-2 md:my-8 justify-between">
+    <main className="p-4 my-4 md:w-4/5 mx-auto flex flex-col gap-12 md:grid md:grid-cols-2 md:my-8 lg:my-14 xl:my-16 justify-between">
         <article>
             <div className="flex gap-1">
                 <p>Welcome </p>
