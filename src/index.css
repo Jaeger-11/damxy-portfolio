@@ -97,6 +97,9 @@ h1 {
 ul{
   list-style-type: square;
 }
+.link-svg:hover path{
+  fill: rgb(239, 68, 68);
+}
 
 button {
   border-radius: 8px;

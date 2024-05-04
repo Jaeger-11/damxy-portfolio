@@ -7,7 +7,7 @@ const Experience = () => {
             <div className='flex justify-center'>
                 <h3 className="p-3 my-4 sh font-bold rotate-0 text-white bg-darkBlue w-max"> My Experience</h3>
             </div>
-            <ul className='p-4 flex flex-col gap-3 text-lg'>
+            <ul className='p-4 flex flex-col gap-3 text-lg md:text-center md:list-none'>
                 <li >
                     <h3 className='font-semibold'> Gathpay (January 2023 - April 2023)</h3>
                     <p className='font-medium'>Frontend Intern</p>
