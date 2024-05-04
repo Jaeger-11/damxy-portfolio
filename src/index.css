@@ -26,10 +26,6 @@
   font-weight: 700;
 }
 
-.font-clash{
-  font-family: 'Clash Display';
-}
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -99,6 +95,15 @@ ul{
 }
 .link-svg:hover path{
   fill: rgb(239, 68, 68);
+}
+.contact-links{
+  @apply flex flex-col gap-3 my-4 md:flex-row md:gap-8 md:flex-wrap
+}
+.contact-links article p {
+  @apply text-sm font-semibold
+}
+.contact-links article a{
+  @apply text-lg md:text-xl transition-all
 }
 
 button {

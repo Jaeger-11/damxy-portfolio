@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className='p-4 bg-grayBg sticky top-0 z-50 shadow-sm border border-black'>
             <div className=' lg:w-4/5 mx-auto justify-between flex flex-row-reverse items-center lg:flex-row'>
-                <h3 className="font-semibold">DAM.<span className={`text-[#00C3F8]`}>XY</span></h3>
+                <h3 className="font-semibold">DAM.<span className={`text-[#2fff2f]`}>XY</span></h3>
                 <div>
                     <svg viewBox="0 -0.5 25 25" className="w-8 aspect-square" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> 
