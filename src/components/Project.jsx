@@ -3,7 +3,7 @@ const Project = ({name, tools, description, link, year, livecode}) => {
   return (
     <motion.article  
     initial={{opacity:0, y:50}}
-    whileInView={{opacity:1, y:0, transition:{duration:0.5, ease: 'easeIn'}}}
+    whileInView={{opacity:1, y:0, transition:{duration:0.25, ease: 'easeIn'}}}
     className='bg-white p-2 rounded-md project flex flex-col justify-between transition-all'>
         <div>
           <h2 className='font-bold text-2xl uppercase'>{name}</h2>
