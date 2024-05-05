@@ -6,6 +6,7 @@ const Experience = () => {
         <motion.article 
         initial={{opacity:0, y:50}}
         whileInView={{opacity:1, y:0, transition:{duration:1}}}
+        viewport={{once:true}}
         className='md:w-4/5 mx-auto'>
             <div className='flex justify-center'>
                 <h3 className="p-3 my-4 sh font-bold rotate-0 text-white bg-darkBlue w-max"> My Experience</h3>

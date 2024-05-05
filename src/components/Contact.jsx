@@ -5,6 +5,7 @@ const Contact = () => {
     <motion.div 
     initial={{opacity:0, y:50}}
     whileInView={{opacity:1, y:0, transition:{duration:0.25, ease: 'easeInOut'}}}
+    viewport={{once:true}}
     className='p-4 bg-grayBg'>
       <motion.article 
       initial={{opacity:0, y:50}}
