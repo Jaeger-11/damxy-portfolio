@@ -3,7 +3,10 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <main className="p-4 my-4 md:w-4/5 mx-auto flex flex-col gap-12 md:grid md:grid-cols-2 md:my-8 lg:my-14 xl:my-16 justify-between">
-        <motion.article>
+        <motion.article
+         initial={{opacity:0, y:-50}}
+         whileInView={{opacity:1, y:0, transition:{duration:1}}}
+        >
             <div className="flex gap-1">
                 <p>Welcome </p>
                 <div className="w-5">
@@ -19,9 +22,12 @@ const Hero = () => {
                 A detail-oriented Frontend Developer with a passion for bringing ideas to life on the web, ensuring every project is both visually stunning and functionally smooth.
             </p>
         </motion.article>
-        <section className='flex justify-center items-center'>
+        <motion.section 
+         initial={{opacity:0, y:50}}
+         whileInView={{opacity:1, y:0, transition:{duration:1}}}
+        className='flex justify-center items-center'>
             <img src={bitmoji} alt="hero" />
-        </section>
+        </motion.section>
     </main>
   )
 }

@@ -1,9 +1,15 @@
-import React from 'react'
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className='p-4 bg-grayBg'>
-      <article className='md:w-4/5 mx-auto'>
+    <motion.div 
+    initial={{opacity:0, y:50}}
+    whileInView={{opacity:1, y:0, transition:{duration:0.5, ease: 'easeInOut'}}}
+    className='p-4 bg-grayBg'>
+      <motion.article 
+      initial={{opacity:0, y:50}}
+      whileInView={{opacity:1, y:0, transition:{duration:0.5, ease: 'easeInOut'}}}
+      className='md:w-4/5 mx-auto'>
             <div className='flex justify-start' id='contact'>
                 <h3 className="p-3 my-4 sh font-bold rotate-3 text-black bg-[#e3a018] w-max"> Contact Me</h3>
             </div>
@@ -34,8 +40,8 @@ const Contact = () => {
                 </article>
               </div>
             </section>
-        </article>
-    </div>
+        </motion.article>
+    </motion.div>
   )
 }
 

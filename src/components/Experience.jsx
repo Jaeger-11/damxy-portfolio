@@ -1,8 +1,12 @@
+import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div className='p-4'>
-        <article className='md:w-4/5 mx-auto'>
+    <div  className='p-4'>
+        <motion.article 
+        initial={{opacity:0, y:50}}
+        whileInView={{opacity:1, y:0, transition:{duration:1}}}
+        className='md:w-4/5 mx-auto'>
             <div className='flex justify-center'>
                 <h3 className="p-3 my-4 sh font-bold rotate-0 text-white bg-darkBlue w-max"> My Experience</h3>
             </div>
@@ -20,7 +24,7 @@ const Experience = () => {
                     <p className='font-medium'>Frontend Developer (NYSC) </p>
                 </li>
             </ul>
-        </article>
+        </motion.article>
     </div>
   )
 }

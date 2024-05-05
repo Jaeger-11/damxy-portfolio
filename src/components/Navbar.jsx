@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 const Navbar = () => {
     const [isMenu, setIsMenu] = useState(false);
     const randomBg = ['#2fff2f', '#00C3F8', '#FF392B', '#9723c9', '#ff0000', '#e3a018']
     const [col, setCol] = useState(randomBg[1])
-    console.log(col)
     useEffect(() => {
         setInterval(() => {
             let i = randomBg[Math.round(Math.random() * 5)]
@@ -38,7 +38,10 @@ const Navbar = () => {
                 <aside className="absolute top-0 left-0 w-3/5 h-[100vh] z-20 bg-white bg-opacity-100">
                     <svg viewBox="0 0 24 24" onClick={() => setIsMenu(false)} className={`${isMenu ? 'opacity-100' : 'opacity-0'} w-8 m-4`} fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z" fill="#000000"></path></g></svg>
 
-                    <ul className="flex flex-col mt-16 gap-4 list-none text-lg p-4">
+                    <motion.ul 
+                    initial={{opacity:0, x:-50}}
+                    whileInView={{opacity:1, x:0, transition:{duration:1}}}
+                    className="flex flex-col mt-16 gap-4 list-none text-lg p-4">
                         <li><a href="#about" className="text-black hover:text-[#2fff2f] transition-all" onClick={()=>setIsMenu(false)}>About Me</a></li>
                         <li><a href="#projects" className="text-black hover:text-[#2fff2f] transition-all" onClick={()=>setIsMenu(false)}>Projects</a></li>
                         <li><a href="#contact" className="text-black hover:text-[#2fff2f] transition-all" onClick={()=>setIsMenu(false)}>Contact</a></li>
@@ -47,7 +50,7 @@ const Navbar = () => {
                                 <button className="transition-all hover:scale-95 hover:text-[#2fff2f] border-none p-2 text-white rounded-sm">Download CV</button>
                             </a>
                         </li>
-                    </ul>
+                    </motion.ul>
                 </aside>
             </div>
         </nav>
