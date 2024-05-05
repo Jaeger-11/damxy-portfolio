@@ -1,8 +1,9 @@
-import bitmoji from '../assets/bitmoji.webp'
+import bitmoji from '../assets/bitmoji.webp';
+import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <main className="p-4 my-4 md:w-4/5 mx-auto flex flex-col gap-12 md:grid md:grid-cols-2 md:my-8 lg:my-14 xl:my-16 justify-between">
-        <article>
+        <motion.article>
             <div className="flex gap-1">
                 <p>Welcome </p>
                 <div className="w-5">
@@ -17,9 +18,7 @@ const Hero = () => {
             <p className='mt-8'>
                 A detail-oriented Frontend Developer with a passion for bringing ideas to life on the web, ensuring every project is both visually stunning and functionally smooth.
             </p>
-
-            {/* <button className='p-3 my-4 sh font-bold text-white bg-black float-right w-max'>Download CV</button> */}
-        </article>
+        </motion.article>
         <section className='flex justify-center items-center'>
             <img src={bitmoji} alt="hero" />
         </section>

@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Experience = () => {
   return (
@@ -17,7 +16,7 @@ const Experience = () => {
                     <p className='font-medium'>UI Developer</p>
                 </li>
                 <li>
-                    <h3 className='font-semibold'>Aggregate Business Solutions Ltd (January 2024 - Present)</h3>
+                    <h3 className='font-semibold'>Aggregate Business Solutions Ltd (March 2024 - Present)</h3>
                     <p className='font-medium'>Frontend Developer (NYSC) </p>
                 </li>
             </ul>
