@@ -19,7 +19,8 @@ const Hero = () => {
             <h3 className="p-3 my-4 sh font-bold -rotate-3 text-black bg-[#00C3F8] w-max">An Aspiring Fullstack Developer</h3>
 
             <p className='mt-8'>
-                A detail-oriented Frontend Developer with a passion for bringing ideas to life on the web, ensuring every project is both visually stunning and functionally smooth.
+                {/* A detail-oriented Frontend Developer with a passion for bringing ideas to life on the web, ensuring every project is both visually stunning and functionally smooth. */}
+                🌟 Hi, I'm a Frontend Developer who's all about the details! I love turning ideas into beautiful websites that work like a charm. Let's create something special together! 💫
             </p>
         </motion.article>
         <motion.section 
