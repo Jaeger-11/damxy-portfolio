@@ -14,7 +14,7 @@ const Experience = () => {
             <ul className='p-4 flex flex-col gap-3 text-lg md:text-center md:list-none'>
                 <li >
                     <h3 className='font-semibold'> Gathpay (January 2023 - April 2023)</h3>
-                    <p className='font-medium'>Frontend Intern</p>
+                    <p className='font-medium'>Frontend Developer Intern</p>
                 </li>
                 <li>
                     <h3 className='font-semibold'>Freelance (April 2023 - January 2024)</h3>

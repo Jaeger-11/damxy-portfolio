@@ -64,7 +64,7 @@ a:hover {
  @apply flex flex-wrap gap-2
 }
 .tools span{
-  @apply border p-1 px-2 text-sm
+  @apply border p-1 px-1.5 text-sm
 }
 
 ::-webkit-scrollbar {
