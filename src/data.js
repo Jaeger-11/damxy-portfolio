@@ -32,6 +32,14 @@ export const projectsData = [
         livecode: "https://github.com/Jaeger-11/yelp-damzy"
     },
     {
+        name: "DNews",
+        description: "DNews is a fast, user-friendly platform for exploring, bookmarking, and commenting on the latest news and trends across multiple categories.",
+        tools: ["Next","Typescript","Redux Toolkit","TailwindCSS","Firebase", "Framer-motion"],
+        link: "https://dnews-xi.vercel.app/",
+        year: "2024",
+        livecode: "https://github.com/Jaeger-11/DNews"
+    },
+    {
         name: "TUTN-Clone",
         description: "The Connected Awards UI Clone.",
         tools: ["React","Context API","CSS","React-Reveal","React-Router"],
