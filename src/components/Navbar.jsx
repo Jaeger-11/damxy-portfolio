@@ -26,7 +26,7 @@ const Navbar = () => {
                     <li><a href="#projects" className="text-black hover:text-[#2fff2f] transition-all">Projects</a></li>
                     <li><a href="#contact" className="text-black hover:text-[#2fff2f] transition-all">Contact</a></li>
                     <li>
-                        <a href="/Falodun-2024-Resume.pdf" download="Falodun's CV">
+                        <a href="/Oluwadamilola-Falodun-Resume.pdf" download="Falodun's CV">
                             <button className="transition-all hover:scale-95 hover:text-[#2fff2f] border-none p-1 px-2 text-white text-sm rounded-sm">Download CV</button>
                         </a>
                     </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
                         <li><a href="#projects" className="text-black hover:text-[#2fff2f] transition-all" onClick={()=>setIsMenu(false)}>Projects</a></li>
                         <li><a href="#contact" className="text-black hover:text-[#2fff2f] transition-all" onClick={()=>setIsMenu(false)}>Contact</a></li>
                         <li>
-                            <a href="/Falodun-2024-Resume.pdf" download="Falodun's CV">
+                            <a href="/Oluwadamilola-Falodun-Resume.pdf" download="Falodun's CV">
                                 <button className="transition-all hover:scale-95 hover:text-[#2fff2f] border-none p-2 text-white rounded-sm">Download CV</button>
                             </a>
                         </li>
